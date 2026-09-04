@@ -1,0 +1,8 @@
+org.springframework.boot.autoconfigure.AutoConfiguration.imports=\
+com.pranav.jwtauth.autoconfigure.JwtAuthAutoConfiguration
+
+# Legacy spring.factories entry retained for compatibility with Spring Boot 2.x-style
+# auto-configuration discovery in consuming services that have not migrated to the
+# AutoConfiguration.imports mechanism.
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.pranav.jwtauth.autoconfigure.JwtAuthAutoConfiguration
